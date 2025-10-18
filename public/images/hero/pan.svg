@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <defs>
+    <radialGradient id="panGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#666"/>
+      <stop offset="100%" stop-color="#2b2b2b"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="110" cy="90" rx="90" ry="42" fill="url(#panGrad)" />
+  <rect x="180" y="74" width="40" height="12" rx="6" fill="#3b3b3b" />
+  <rect x="215" y="68" width="20" height="24" rx="12" fill="#2a2a2a" />
+</svg>
