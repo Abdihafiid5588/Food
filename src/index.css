@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+:root {
+  color-scheme: light;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-body bg-beige text-text antialiased;
+}
+
+/* Focus outline for accessibility */
+:focus-visible {
+  outline: 3px solid theme('colors.primary');
+  outline-offset: 2px;
+}
+
+/* Decorative soft shape utility - used in Hero and About */
+.soft-shape {
+  position: absolute;
+  width: 60vmin;
+  height: 60vmin;
+  background: theme('colors.soft');
+  border-radius: 40% 60% 60% 40% / 40% 40% 60% 60%;
+  filter: blur(10px);
+  opacity: 0.25;
+}
+
+/* Hide motion for users preferring reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

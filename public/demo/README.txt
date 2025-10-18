@@ -1,0 +1,1 @@
+Add a short screen recording (GIF or MP4) of the landing page interactions here. Suggested: use a tool like Kap, ScreenToGif, or QuickTime to record 6–10s showing hero entrance, scroll reveals, and card hovers. File name suggestion: demo.mp4 or demo.gif.
